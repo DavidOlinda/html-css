@@ -2,11 +2,11 @@
     font-family: Fontehd;
 
     /*Caso a fonte esteja na mesma pasta*/
-    src: url("LibreBaskerville-Regular.ttf");
+    src: url("imagens/LibreBaskerville-Regular.ttf");
 }
 @font-face{
     font-family: Secundaria;
-    src: url(YoungSerif-Regular.ttf);
+    src: url(imagens/YoungSerif-Regular.ttf);
 }
 * {
     margin: 0px;
