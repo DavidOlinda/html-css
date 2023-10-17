@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com o tema que a Livia escolher</title>
+    <style>
+        body,html{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        thead{
+            height: 20px;
+            position: relative;
+            margin: auto;
+        }
+        table{
+            border-collapse: collapse;
+            width: 800px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 30px;
+            text-align: center;
+            font-weight: bold;
+
+        }
+        .num{
+            background-color: rgba(255, 255, 0, 0.637);
+            
+            text-align: right;
+        }
+        .eu{
+            background-image: linear-gradient(to right, red,lightcyan,lightgray);
+        }
+        .asia{
+            background-image: linear-gradient(to right, blue, rgba(0, 0, 255, 0.295),white);
+        }
+        .islandia{
+            background-image: url('imagens/islandia.jpg');
+            
+        }
+        .china{
+            background-image: url('imagens/180710-China-iStock-860594926.jpg.optimal.jpg');
+        }
+        .noruega{
+            background-image: linear-gradient(to right, red,rgb(255, 255, 255),rgba(211, 211, 211, 0.096));
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>
+        Quantos crianças morrem no mundo ? 
+    </h1>
+    <table>
+        <caption>
+            Países com mais mortes 
+        </caption>
+        <thead>
+            <th>País</th>
+            <th>Mortes</th>
+            <th>Continente</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="islandia">Islândia</td>
+                <td class="num">16.96</td>
+                <td class="eu">Europa</td>
+            </tr>
+            <tr>
+                <td class="china">China</td>
+                <td class="num" >46.26</td>
+                <td class="asia">Asia</td>
+            </tr>
+            <tr>
+                <td class="noruega"> Noruega</td>
+                <td class="num">18.73</td>
+                <td class="eu" >Europa</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
