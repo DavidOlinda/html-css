@@ -1,0 +1,92 @@
+body {
+	background-color: #ffc0cb;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 500px;
+	height: 600px;
+	background-color: #ffffff;
+	border: 1px solid #ff007a;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #ccc;
+	text-align: center;
+	padding: 50px;
+	margin: 50px auto;
+}
+
+.title {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #ff007a;
+}
+header{
+    background-color: purple;
+    height: 110px;
+    margin: -10px;
+    padding: 10px;
+}
+.button-link {
+    text-decoration: none; /* Remove the default underline */
+    padding: 0.5rem 1rem; /* Add some spacing around the text */
+    border: 1px solid #333; /* Add a border */
+    border-radius: 0.25rem; /* Round the corners */
+    background-color: #f2f2f279; /* Add some background color */
+    color: #969494; /* Match the text color to the border color */
+    display: inline-block; /* Make the element behave like a block-level element */
+  }
+  
+  .button-link:hover {
+    background-color: #e6e6e6; /* Change the background color on hover */
+  }
+  
+  .button-link:active {
+    background-color: #d4d4d4; /* Change the background color when the element is being clicked */
+  }
+  img{
+    width: 350px;
+    height: 350px;
+  }
+  .principal {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+ 
+section{
+    background-color: white;
+    padding-left: 2px;
+    
+}
+h2{
+    float: left;
+}
+img {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+.primeira{
+    
+    display: flex;
+    align-items: center;
+
+}
+footer{
+    margin-top: 0%;
+}
+.footer{
+    width: 100vw;
+    height: 100vh;
+}
+.lambuza-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lambuza-image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+ height: auto;
+}
